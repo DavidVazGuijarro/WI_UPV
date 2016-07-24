@@ -3,7 +3,7 @@ package util;
 /**
  * Created by joaquin on 27/04/14.
  */
-public class Asignatura {
+public class asignatura {
 
     private String codigo;
     private String nombre;
@@ -11,7 +11,7 @@ public class Asignatura {
     private String semestre;
     private String url;
 
-    public Asignatura() {
+    public asignatura() {
 
     }
 

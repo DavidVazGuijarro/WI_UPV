@@ -1,53 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\support-v4-19.0.1-a28c415a50578e3857e8ef1c829fe74bb98ea447.jar"
-        jar="C:\Users\Cristian\AppData\Local\Android\android-studio1\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
-        jumboMode="false" revision="19.1.0" sha1="587da9a481ffd341d2fa091704489b89845ddacd" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/src/main/libs/backport-util-concurrent-3.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="682f7ac17fed79e92f8e87d8455192b63376347b">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/backport-util-concurrent-3.1_20738dcf22e411b0a38dbd8aedb1fafdd3787fa7/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\classes-a535eb619c7c87fee028994a01b12047c55de7e3.jar"
-        jar="D:\WelcomeIncomingApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
-        jumboMode="false" revision="19.1.0" sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-19.0.1_11fce28a61e865134362493c92f7d6609f973795/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\commons-logging-1.1.3-d425119b4e409eca9dafb5aef32cfe249259ff3e.jar"
-        jar="D:\WelcomeIncomingApp\app\src\main\libs\commons-logging-1.1.3.jar" jumboMode="false"
-        revision="19.1.0" sha1="f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f" />
+        jar="/Users/davidvazguijarro/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.0.1_9c2b7ddfe093a1a215377baefdf53ba5a863cdb9/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\gson-2.2.4-9d284b62465c63cf2750584551f0b6f8ae0f8433.jar"
-        jar="D:\WelcomeIncomingApp\app\src\main\libs\gson-2.2.4.jar" jumboMode="false"
-        revision="19.1.0" sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8b3d9a7b348d8bcfb4d740dfaf70bc374cdae9d6">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.amlcurran.showcaseview-library-5.0.0_d1e6b6e1f2b7fcdeff053692516931aa723a7dfe/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\backport-util-concurrent-3.1-90a618426db59b9e62d0bdf39c6fdc03e8bb82b3.jar"
-        jar="D:\WelcomeIncomingApp\app\src\main\libs\backport-util-concurrent-3.1.jar"
-        jumboMode="false" revision="19.1.0" sha1="682f7ac17fed79e92f8e87d8455192b63376347b" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="956700d82f46bf6537ee652319fd96ecbb7530bf">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_142e68c1ce922e6ae0d17b7fe4e25f1be296a80b/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\commons-codec-1.8-160db940482d7b9f9346affc7ae4721a4c8725a2.jar"
-        jar="D:\WelcomeIncomingApp\app\src\main\libs\commons-codec-1.8.jar" jumboMode="false"
-        revision="19.1.0" sha1="af3be3f74d25fc5163b54f56a0d394b462dafafd" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/src/main/libs/wikitudesdk.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5c233569b0360e5ef7542bb707ddbd18979c934b">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/wikitudesdk_65ce5e95931b272a609a7be66595cbeb4f274b01/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\classes-1366f25871519d8f892fea8b4307c0c64656b75a.jar"
-        jar="D:\WelcomeIncomingApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.3.23\classes.jar"
-        jumboMode="false" revision="19.1.0" sha1="7676c0cb230efa6ac41c47867d372ed5913029d4" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/src/main/libs/commons-lang-2.6.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-lang-2.6_32474db4c622d97009b0a4da58fb7fccebfd4786/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\classes-b4776e1c9ab4dcdd3dfcd545418f6a5bdb9d5130.jar"
-        jar="D:\WelcomeIncomingApp\app\build\intermediates\exploded-aar\com.github.amlcurran.showcaseview\library\5.0.0\classes.jar"
-        jumboMode="false" revision="19.1.0" sha1="8b3d9a7b348d8bcfb4d740dfaf70bc374cdae9d6" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2311f867763d6c75698438a844c08c931ecd88b3">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ffd1705bfe2d7da7eb51106665a6efe766f28bd1/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\wikitudesdk-9fecf55d443176b92d73b66a191843a770b395be.jar"
-        jar="D:\WelcomeIncomingApp\app\src\main\libs\wikitudesdk.jar" jumboMode="false"
-        revision="19.1.0" sha1="5c233569b0360e5ef7542bb707ddbd18979c934b" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/src/main/libs/json_simple-1.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/json_simple-1.1_593a48ceec8462ca074dd38fcd09f648d56211e7/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\commons-lang-2.6-b021913ee3f88937471916e6ce29abc1cedca461.jar"
-        jar="D:\WelcomeIncomingApp\app\src\main\libs\commons-lang-2.6.jar" jumboMode="false"
-        revision="19.1.0" sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/src/main/libs/ical4j-1.0.5.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7c2ddc98bda6e0838cca0129fda095a716a7d9dd">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/ical4j-1.0.5_78421d89d09170179d5c4169e560b8cbed634e1f/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\ical4j-1.0.5-81a3e34e06b06277db2b59bb09fece8858a3a8db.jar"
-        jar="D:\WelcomeIncomingApp\app\src\main\libs\ical4j-1.0.5.jar" jumboMode="false"
-        revision="19.1.0" sha1="7c2ddc98bda6e0838cca0129fda095a716a7d9dd" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/src/main/libs/gson-2.2.4.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.2.4_97d99283b6740670a4474b4cabc05d601dafead3/classes.dex" />
+    </item>
     <item
-        dex="D:\WelcomeIncomingApp\app\build\intermediates\pre-dexed\debug\json_simple-1.1-e0d0490d7ab25fe21b689afd576c3dd7cdbe8256.jar"
-        jar="D:\WelcomeIncomingApp\app\src\main\libs\json_simple-1.1.jar" jumboMode="false"
-        revision="19.1.0" sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb" />
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/src/main/libs/commons-logging-1.1.3.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-logging-1.1.3_c61f93a02fb408108c9a0f7f2142db420172aa93/classes.dex" />
+    </item>
+    <item
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.3.23/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7676c0cb230efa6ac41c47867d372ed5913029d4">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-4.3.23_74510c18d6ef3211a312736bc362624a6268b5f4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/src/main/libs/commons-codec-1.8.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="af3be3f74d25fc5163b54f56a0d394b462dafafd">
+        <dex dex="/Users/davidvazguijarro/Desktop/WI_UPV-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-codec-1.8_43a3d743af3b8f21227df254b9a384c23e1305e3/classes.dex" />
+    </item>
 
-</pre-dex-items>
+</items>

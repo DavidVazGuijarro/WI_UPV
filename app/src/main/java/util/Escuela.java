@@ -21,7 +21,7 @@ public class Escuela {
     String tecnicomail;
     String tecnicotelefono;
     String tecnicoextension;
-    List asignaturas = new ArrayList<Asignatura>();
+    List asignaturas = new ArrayList<asignatura>();
 
     public Escuela() {
 

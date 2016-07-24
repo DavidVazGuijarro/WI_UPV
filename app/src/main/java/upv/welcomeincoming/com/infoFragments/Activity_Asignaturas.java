@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import upv.welcomeincoming.com.R;
-import util.Asignatura;
+import util.asignatura;
 import util.Escuela;
 import util.MultiExpandableListAdapter_Escuelas;
 import util.Parser_XML;
@@ -26,7 +26,7 @@ public class Activity_Asignaturas extends Activity {
     int width;
     ExpandableListView expListView;
     List<String> listDataHeader;
-    HashMap<String, List<Asignatura>> listDataChild;
+    HashMap<String, List<asignatura>> listDataChild;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -48,7 +48,7 @@ public class Activity_Asignaturas extends Activity {
 
     private void prepareListData() {
         listDataHeader = new ArrayList<String>();
-        listDataChild = new HashMap<String, List<Asignatura>>();
+        listDataChild = new HashMap<String, List<asignatura>>();
 
 
         InputStream fichero = this.getResources().openRawResource(R.raw.asignaturas);
@@ -58,8 +58,8 @@ public class Activity_Asignaturas extends Activity {
         for (int i = 0; i < lista.size(); i++) {
             Escuela escuela = lista.get(i);
             listDataHeader.add(escuela.getEscuelanombre());
-            List<Asignatura> info = new ArrayList<Asignatura>();
-            List<Asignatura> asig = escuela.getAsignaturas();
+            List<asignatura> info = new ArrayList<asignatura>();
+            List<asignatura> asig = escuela.getAsignaturas();
             for (int j = 0; j < asig.size(); j++) {
                 info.add(asig.get(j));
             }

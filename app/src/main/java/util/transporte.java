@@ -3,21 +3,21 @@ package util;
 /**
  * Created by joaquin on 27/04/14.
  */
-public class Transporte {
+public class transporte {
 
     private String nombre;
     private String descripcion;
     private String telefono;
     private String url;
 
-    public Transporte(String nombre, String descripcion, String telefono, String url) {
+    public transporte(String nombre, String descripcion, String telefono, String url) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.telefono = telefono;
         this.url = url;
     }
 
-    public Transporte() {
+    public transporte() {
 
     }
 
@@ -55,7 +55,7 @@ public class Transporte {
 
     @Override
     public String toString() {
-        return "Transporte{" +
+        return "transporte{" +
                 "nombre='" + nombre + '\'' +
                 ", descripcion='" + descripcion + '\'' +
                 ", telefono=" + telefono +

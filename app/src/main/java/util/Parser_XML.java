@@ -86,7 +86,7 @@ public class Parser_XML {
                     if ((tipoevento == XmlPullParser.START_TAG) && (parseado.getName().equals("escuela"))) {
                         nombre_escuela = parseado.getAttributeValue(null, "nombre");
                     /*Cada escuela tendra una lista de objetos asignatura*/
-                        asignaturas = new ArrayList<Asignatura>();
+                        asignaturas = new ArrayList<asignatura>();
                         crear_lista = true;
                         parseado.next();
                         tipoevento = parseado.getEventType();
@@ -94,7 +94,7 @@ public class Parser_XML {
                         while (crear_lista) {
 
                             if (tipoevento == XmlPullParser.START_TAG) {
-                                Asignatura nueva = new Asignatura();
+                                asignatura nueva = new asignatura();
                                 nueva.setCodigo(parseado.getAttributeValue(null, "codigo"));
                                 nueva.setNombre(parseado.getAttributeValue(null, "nombre"));
                                 nueva.setUrl(parseado.getAttributeValue(null, "url"));
@@ -128,13 +128,13 @@ public class Parser_XML {
             else if (tipo_xml.equals("transportes")) {
 
             /*Vamos a devolver un ArrayList de objetos transporte*/
-                resultado = new ArrayList<Transporte>();
+                resultado = new ArrayList<transporte>();
 
                 while (tipoevento != XmlPullParser.END_DOCUMENT) {
 
                     if ((tipoevento == XmlPullParser.START_TAG) && !(parseado.getName().equals("transportes"))) {
 
-                        Transporte nuevo = new Transporte();
+                        transporte nuevo = new transporte();
                         nuevo.setNombre(parseado.getName());
                         nuevo.setUrl(parseado.getAttributeValue(null, "url"));
                         nuevo.setDescripcion(parseado.getAttributeValue(null, "descripcion"));
@@ -155,13 +155,13 @@ public class Parser_XML {
             else if (tipo_xml.equals("valencia_intro")) {
 
             /*Vamos a devolver un ArrayList de objetos valencia*/
-                resultado = new ArrayList<Valencia>();
+                resultado = new ArrayList<valencia>();
 
                 while (tipoevento != XmlPullParser.END_DOCUMENT) {
 
                     if ((tipoevento == XmlPullParser.START_TAG) && (parseado.getName().equals("valencia"))) {
 
-                        Valencia nuevo = new Valencia();
+                        valencia nuevo = new valencia();
                         nuevo.setDescripcion(parseado.getAttributeValue(null, "descripcion"));
                         resultado.add(nuevo);
                         parseado.next();

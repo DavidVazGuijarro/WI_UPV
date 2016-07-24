@@ -22,11 +22,11 @@ public class MultiExpandableListAdapter_Escuelas extends BaseExpandableListAdapt
     private Context _context;
     private List<String> _listDataHeader; // header titles
     // child data in format of header title, child title
-    private HashMap<String, List<Asignatura>> _listDataChild;
+    private HashMap<String, List<asignatura>> _listDataChild;
     private String[] nombres = {"Nombre", "Codigo", "URL", "Creditos", "Semestre"};
 
     public MultiExpandableListAdapter_Escuelas(Context context, List<String> listDataHeader,
-                                               HashMap<String, List<Asignatura>> listChildData) {
+                                               HashMap<String, List<asignatura>> listChildData) {
         this._context = context;
         this._listDataHeader = listDataHeader;
         this._listDataChild = listChildData;
@@ -57,7 +57,7 @@ public class MultiExpandableListAdapter_Escuelas extends BaseExpandableListAdapt
         TextView tv_nombre = (TextView) convertView.findViewById(R.id.tv_nombre);
         TextView tv_desc = (TextView) convertView.findViewById(R.id.tv_description);
         ImageButton btn_url = (ImageButton) convertView.findViewById(R.id.im_url);
-        Asignatura asig = (Asignatura) getChild(groupPosition, childPosition);
+        asignatura asig = (asignatura) getChild(groupPosition, childPosition);
         String nCodigo = "Code";
         String idioma = "i";
         Locale locale1 = _context.getResources().getConfiguration().locale;

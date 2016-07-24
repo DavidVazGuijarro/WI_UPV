@@ -14,10 +14,10 @@ import android.widget.TextView;
 
 import upv.welcomeincoming.com.R;
 import util.DBHandler_Horarios;
-import util.Transporte;
+import util.transporte;
 
 public class Fragment_Taxi extends Fragment {
-    Transporte tren;
+    transporte tren;
     private SQLiteDatabase db;
 
     public Fragment_Taxi() {
@@ -55,11 +55,11 @@ public class Fragment_Taxi extends Fragment {
         return view;
     }
 
-    private Transporte obtener() {
+    private transporte obtener() {
         String sql = "SELECT * FROM Transporte WHERE nombre = 'taxi'";
         Cursor cursor = db.rawQuery(sql, null);
         while (cursor.moveToNext()) {
-            Transporte transporte = new Transporte(cursor.getString(cursor.getColumnIndex("nombre")), cursor.getString(cursor.getColumnIndex("descripcion")), cursor.getString(cursor.getColumnIndex("telefono")), cursor.getString(cursor.getColumnIndex("url")));
+            transporte transporte = new transporte(cursor.getString(cursor.getColumnIndex("nombre")), cursor.getString(cursor.getColumnIndex("descripcion")), cursor.getString(cursor.getColumnIndex("telefono")), cursor.getString(cursor.getColumnIndex("url")));
             return transporte;
         }
         cursor.close();

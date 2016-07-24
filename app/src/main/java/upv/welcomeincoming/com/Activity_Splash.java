@@ -26,7 +26,7 @@ import util.Parser_XML_emt;
 import util.Parser_XML_interes;
 import util.Parser_XML_metro;
 import util.Parser_XML_valenbisi;
-import util.Transporte;
+import util.transporte;
 
 
 public class Activity_Splash extends Activity {
@@ -139,11 +139,11 @@ public class Activity_Splash extends Activity {
                 //Transportes
                 InputStream fichero = getResources().openRawResource(R.raw.transportes);
                 Parser_XML parseador = new Parser_XML("transportes");
-                List<Transporte> listaTransportes = parseador.parseando(fichero);
+                List<transporte> listaTransportes = parseador.parseando(fichero);
                 listaTransportes.remove(0);
-                Iterator<Transporte> transporteIterator = listaTransportes.iterator();
+                Iterator<transporte> transporteIterator = listaTransportes.iterator();
                 while (transporteIterator.hasNext()) {
-                    Transporte transporte = transporteIterator.next();
+                    transporte transporte = transporteIterator.next();
                     db.execSQL("INSERT OR IGNORE INTO Transporte (nombre,descripcion,telefono,url) VALUES ('" + transporte.getNombre() + "','" + transporte.getDescripcion() + "','" + transporte.getTelefono() + "','" + transporte.getUrl() + "');");
                 }
 

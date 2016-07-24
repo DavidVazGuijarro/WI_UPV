@@ -16,10 +16,10 @@ import upv.welcomeincoming.com.Activity_Localizacion_EMT;
 import upv.welcomeincoming.com.R;
 import util.DBHandler_Horarios;
 import util.InternetConnectionChecker;
-import util.Transporte;
+import util.transporte;
 
 public class Fragment_Metro extends Fragment {
-    Transporte metro;
+    transporte metro;
     InternetConnectionChecker icc;
     private SQLiteDatabase db;
 
@@ -64,11 +64,11 @@ public class Fragment_Metro extends Fragment {
         return view;
     }
 
-    private Transporte obtener() {
+    private transporte obtener() {
         String sql = "SELECT * FROM Transporte WHERE nombre = 'metro'";
         Cursor cursor = db.rawQuery(sql, null);
         while (cursor.moveToNext()) {
-            Transporte transporte = new Transporte(cursor.getString(cursor.getColumnIndex("nombre")), cursor.getString(cursor.getColumnIndex("descripcion")), cursor.getString(cursor.getColumnIndex("telefono")), cursor.getString(cursor.getColumnIndex("url")));
+            transporte transporte = new transporte(cursor.getString(cursor.getColumnIndex("nombre")), cursor.getString(cursor.getColumnIndex("descripcion")), cursor.getString(cursor.getColumnIndex("telefono")), cursor.getString(cursor.getColumnIndex("url")));
             return transporte;
         }
         cursor.close();
